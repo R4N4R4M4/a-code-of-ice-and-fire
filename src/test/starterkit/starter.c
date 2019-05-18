@@ -34,8 +34,8 @@
 // -------- Structures ------------
 
     typedef struct _position {
-        char x;
-        char y;
+        int x;
+        int y;
         } POSITION;
     
     typedef struct _player {
@@ -44,13 +44,13 @@
         } PLAYER;
     
     typedef struct _mine {
-        char x;
-        char y;
+        int x;
+        int y;
         } MINE;
     
     typedef struct _building {
-        char x;
-        char y;
+        int x;
+        int y;
         int owner;
         int type;
         } BUILDING;
